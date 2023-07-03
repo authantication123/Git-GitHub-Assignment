@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-color: #dcdbdb;
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 10px;
+        }
+        .box{
+            height: 300px;
+            width: 300px;
+            /* border: solid; */
+            background-color: white;
+            margin: auto;
+            flex-wrap: wrap;
+            box-shadow: 20px;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        .name{
+            border: none;
+            height: 50px;
+            width: 250px;
+            outline: none;
+            margin-left: 20px;
+            border-bottom: 1px solid black;
+
+        }
+        .botn{
+            background-color: #3737e4;
+            width: 250px;
+            height: 30px;
+            margin-top: 20px;
+            margin-left: 20px;
+            border: none;
+            border-radius: 5px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>login</h1>
+            <input class="name" placeholder="username" name="name" id="">
+            <input class="name" type="password" placeholder="Password" name="" id="">
+            <button class="botn"><span>Submit</span></button>
+        </div>
+    </div>
+</body>
+</html>
